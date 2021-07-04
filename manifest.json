@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "MH Social Media Launcher",
+  "description": "One Click to Access <b>MH</b> social Media Account",
+  "version": "1.0.0",
+  "icons": { "128": "MH_logo_128.png" },
+  "browser_action": {
+    "default_icon": "MH_logo_19.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
